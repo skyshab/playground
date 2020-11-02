@@ -1,0 +1,17 @@
+{
+    "name": "unit-testing",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+        "mocha": "^8.2.0",
+        "chai": "^4.2.0"
+    },
+    "scripts": {
+        "test": "mocha",
+        "test:watch": "mocha --watch ./test ./"
+    },
+    "author": "",
+    "license": "ISC"
+}

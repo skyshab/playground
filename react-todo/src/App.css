@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+
+    background: rgba(0, 0, 0, 0.03);
+    min-height: 100vh;
+}
+
+.container {
+    padding: 1.6rem;
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: #444;
+    color: white;
+    border: none;
+}
+
+.todo-item {
+    background-color: #f4f4f4;
+    border-bottom: 1px solid grey;
+    padding: 5px;
+}
+
+.todo-item__delete-btn {
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    border: none;
+    width: 1.6rem;
+    height: 1.6rem;
+    float: right;
+}
+
+header a,
+header a:visited {
+    color: white;
+    text-decoration: none;
+}
