@@ -1,4 +1,4 @@
-# Redux context blog
+# React with context blog
 
 Goal: Learn React context api and hooks
 
